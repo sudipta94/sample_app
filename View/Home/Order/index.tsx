@@ -1,13 +1,12 @@
 import {View, Text} from 'react-native';
 import React from 'react';
-import Login from './Login';
 
-const SignupLogin = () => {
+const Order = () => {
   return (
     <View>
-      <Login />
+      <Text>Order</Text>
     </View>
   );
 };
 
-export default SignupLogin;
+export default Order;
